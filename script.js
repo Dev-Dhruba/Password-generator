@@ -22,3 +22,6 @@ function passwordGive(){
     inputField.value = password;
 }
 
+function CopyPassword(){
+    navigator.clipboard.writeText(inputField.value);
+}

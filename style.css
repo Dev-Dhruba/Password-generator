@@ -46,6 +46,19 @@ hr{
     height: 30px;
 }
 
+.display span{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.display span:hover{
+    background-color: #f0ebeb;
+}
+
 .display input{
     border: none;
     font-size: 25px;
